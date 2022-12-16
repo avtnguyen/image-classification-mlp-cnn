@@ -12,17 +12,28 @@ Train data shape: (60000, 28, 28) (60000,)
 
 Test data shape: (10000, 28, 28) (10000,)
 
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Train_Test_classes.png">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Train_Test_classes.png">
 
 The first 25 image in training dataset:
 
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Handwriting_image.png">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Handwriting_image.png">
 
 ### Project Pipeline :
 **1. Data preprocessing for MLP and CNN model:** 
 * One-hot encoding to convert a class vector to a binary class matrix
 * Flatten images and normalization 
 
+**2. Build a MLP and CNN models:**
+** MLP model architecture **
+* Three layers: input with 784 neurons, hidden layer with 128 neurons, and output layer with 10 neurons. This is approximated based on the number of features and number of labels.
+* Dropout layer is added to in first and second layer to regularize the model and prevent overfitting. The dropout rate is assumed to 0.4
+* Rectified Linear Unit (ReLU) is implemented in first and second layers which can help reduce the vanishing gradient problems. 
+* For the last layer, softmax is used to return an array of probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
+* Loss function used in here is the categorical cross-entropy to compute the error between the true classes and predicted classes. 
+* Optimizer used here is the adam (adaptive moments) with adaptive learning rates
+* The labels are given in an one_hot format
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/mlp_model_summary.png">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png"
 
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
