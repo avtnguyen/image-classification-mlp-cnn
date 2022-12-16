@@ -1,11 +1,10 @@
 # Image Classification with MLP and CNN
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/new_year_lonjong_3.jpg"  width="300">
 
 #### -- Project Status: [In Progress]
 
 ## Project Objective
 The purpose of this project is to build a machine learning model for image classification using two deep learning techniques: the multilayer perceptron (MLP) and the convolutional neural network (CNN). The MNIST data is  a large database of handwritten digits and is available in tensorflow dataset.
-
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/new_year_lonjong_3.jpg"  width="300">
 
 ## Project Description
 **About the dataset** The MNIST dataset contains 60,000 training images and 10,000 testing images. Each image is 28x28 pixel.
