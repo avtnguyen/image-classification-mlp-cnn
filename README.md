@@ -52,7 +52,7 @@ The first 25 image in training dataset:
 * Flatten layer: to convert to 1-D vector
 * Fully connected network
 
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" width="200" >
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" >
 
 
 **3. Model evaluation**
