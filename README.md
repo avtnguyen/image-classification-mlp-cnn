@@ -32,7 +32,7 @@ The first 25 image in training dataset:
 * Loss function used in here is the categorical cross-entropy to compute the error between the true classes and predicted classes. 
 * Optimizer used here is the adam (adaptive moments) with adaptive learning rates
 * The labels are given in an one_hot format
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png"
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png">
 
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
