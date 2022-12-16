@@ -19,14 +19,10 @@ The first 25 image in training dataset:
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Handwriting_image.png">
 
 ### Project Pipeline :
-**1. Data processing and exploration:** In this section, I performed data cleaning to remove NaN vaues and features that contains only zero values. I also checked for imblance classes and the data distribution as shown in the table below
+**1. Data preprocessing for MLP and CNN model:** 
+* One-hot encoding to convert a class vector to a binary class matrix
+* Flatten images and normalization 
 
-| Category       | Total values  | Percentage(%)  |
-| -------------  |:-------------:| --------------:|
-| Oil spill      | 41            | 4.38           |
-| No oil spill   | 896           |  95.62         |
-
-<img src="https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/blob/main/Label_distribution.png">
 
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
