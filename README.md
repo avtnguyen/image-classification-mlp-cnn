@@ -41,6 +41,14 @@ The first 25 image in training dataset:
 * Number of neurons per layer and number of hidden layer: Here, there will be only 1 hidden layer and the input layer will have 784 neurons corresponding to the input size.
 * Dropout layer is a regularization method to turned off some neurons randomly with the dropout rate assumed to be 40%, meaning that there are 40% chances turned off randomly
 
+**3. Model evaluation**
+**Loss function versus epoch**
+<figure>
+  <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
+  <figcaption>Loss function vs epochs in MLP model</figcaption>
+</figure>
+**Confusion matrix**
+**Classification report**
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
 **3. Splitting the dataset** to train test sets based on the following specifications: Train size: 75%, test size: 25%, stratifying based on the y label  to ensure that both the train and test sets have the same class proportion similar to the original dataset. After that, I normalized both train and test datasets using the StandardScaller() to remove the mean and scaling to unit variance. 
@@ -114,9 +122,7 @@ For imbalance dataset and classification model, the following metrics are used t
 3. Data processing and modeling scripts are being kept [here](https://github.com/avtnguyen/Oil-Spill-Detection-ML-Model/)
 
 ## References:
-* https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
-* https://imbalanced-learn.org/stable/references
-* https://machinelearningmastery.com/framework-for-imbalanced-classification-projects
+* https://deepai.org/machine-learning-glossary-and-terms/feed-forward-neural-network
 
 ## Contributing Members
 
