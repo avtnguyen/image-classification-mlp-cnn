@@ -12,11 +12,10 @@ Train data shape: (60000, 28, 28) (60000,)
 
 Test data shape: (10000, 28, 28) (10000,)
 
-Train labels: {0: 5923, 1: 6742, 2: 5958, 3: 6131, 4: 5842, 5: 5421, 6: 5918, 7: 6265, 8: 5851, 9: 5949}
-
-Test labels: {0: 980, 1: 1135, 2: 1032, 3: 1010, 4: 982, 5: 892, 6: 958, 7: 1028, 8: 974, 9: 1009}
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Train_Test_classes.png">
 
 The first 25 image in training dataset:
+
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Handwriting_image.png">
 
 ### Project Pipeline :
