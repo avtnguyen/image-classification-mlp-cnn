@@ -1,19 +1,23 @@
 # Image Classification with MLP and CNN
 
-# Oil-Spill-Detection-Model
-
-#### -- Project Status: [Completed]
+#### -- Project Status: [In Progress]
 
 ## Project Objective
-The purpose of this project is to build a machine learning model to detect oil spill from satellite image using the processed dataset provided from Kaggle. In this project, i look at multiple different data augmentation techniques (SMOTE, ADASYN, etc) for imbalanced dataset and different supervised learning algorithms to improve the model performance. 
+The purpose of this project is to build a machine learning model for image classification using two deep learning techniques: the multilayer perceptron (MLP) and the convolutional neural network (CNN). The MNIST data is  a large database of handwritten digits and is available in tensorflow dataset.
 
 ## Project Description
-**About the dataset** The dataset was developed by starting with satellite images of the ocean, some of which contain an oil spill and some that do not. Images were split into sections and processed using computer vision algorithms to provide a vector of features to describe the contents of the image section or patch.
-The task is, given a vector that describes the contents of a patch of a satellite image, then predicts whether the patch contains an oil spill or not, e.g. from the illegal or accidental dumping of oil in the ocean. There are two classes and the goal is to distinguish between spill and non-spill using the features for a given ocean patch. 
+**About the dataset** The MNIST dataset contains 60,000 training images and 10,000 testing images. Each image is 28x28 pixel.
 
-Non-Spill: negative case, or majority class.
-Oil Spill: positive case, or minority class.
-[Source](https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection)
+Train data shape: (60000, 28, 28) (60000,)
+
+Test data shape: (10000, 28, 28) (10000,)
+
+Train labels: {0: 5923, 1: 6742, 2: 5958, 3: 6131, 4: 5842, 5: 5421, 6: 5918, 7: 6265, 8: 5851, 9: 5949}
+
+Test labels: {0: 980, 1: 1135, 2: 1032, 3: 1010, 4: 982, 5: 892, 6: 958, 7: 1028, 8: 974, 9: 1009}
+
+The first 25 image in training dataset:
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/Handwriting_image.png">
 
 ### Project Pipeline :
 **1. Data processing and exploration:** In this section, I performed data cleaning to remove NaN vaues and features that contains only zero values. I also checked for imblance classes and the data distribution as shown in the table below
