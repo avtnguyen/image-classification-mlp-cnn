@@ -43,12 +43,24 @@ The first 25 image in training dataset:
 
 **3. Model evaluation**
 **Loss function versus epoch**
-Loss function vs epochs in MLP model
+
+* Loss function vs epochs in MLP model
 
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
 
+* Loss function vs epochs in CNN model
+
 **Confusion matrix**
+* Confusion matric in MLP model
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png">
+
+* Confusion matric in CNN model
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
+
 **Classification report**
+* Classification report for MLP model
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/classification_report_MLP.png">
+
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
 **3. Splitting the dataset** to train test sets based on the following specifications: Train size: 75%, test size: 25%, stratifying based on the y label  to ensure that both the train and test sets have the same class proportion similar to the original dataset. After that, I normalized both train and test datasets using the StandardScaller() to remove the mean and scaling to unit variance. 
