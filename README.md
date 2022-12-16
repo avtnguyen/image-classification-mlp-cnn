@@ -44,6 +44,7 @@ The first 25 image in training dataset:
 
 **CNN model architecture**
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/CNN_model.png" align="center" width="700" >
+
 [Image source](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)
 
 * Convolution layers: 2 layers with number of 32 and 64 filters. Kernel size is 3x3 matrix
@@ -51,7 +52,7 @@ The first 25 image in training dataset:
 * Flatten layer: to convert to 1-D vector
 * Fully connected network
 
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" width="700" >
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" width="500" >
 
 
 **3. Model evaluation**
@@ -64,7 +65,7 @@ The first 25 image in training dataset:
 
 **Confusion matrix**
 * Confusion matric in MLP model
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png" width = "300">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png" width = "600">
 
 **Classification report**
 * Classification report for MLP model
