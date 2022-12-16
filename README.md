@@ -43,6 +43,7 @@ The first 25 image in training dataset:
 * Dropout layer is a regularization method to turned off some neurons randomly with the dropout rate assumed to be 40%, meaning that there are 40% chances turned off randomly
 
 **CNN model architecture**
+
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/CNN_model.png" align="center" width="700" >
 
 [Image source](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)
