@@ -1,5 +1,5 @@
 # Image Classification with MLP and CNN
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Photos.jpg"  align="left" width="300">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Photos.jpg"  align="center" width="500">
 
 #### -- Project Status: [In Progress]
 
