@@ -42,6 +42,20 @@ The first 25 image in training dataset:
 * Number of neurons per layer and number of hidden layer: Here, there will be only 1 hidden layer and the input layer will have 784 neurons corresponding to the input size.
 * Dropout layer is a regularization method to turned off some neurons randomly with the dropout rate assumed to be 40%, meaning that there are 40% chances turned off randomly
 
+**CNN model architecture**
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/CNN_model.png" align="center" width="700" >
+
+* Convolution layers: 2 layers with number of 32 and 64 filters. Kernel size is 3x3 matrix
+* Pooling
+* Three layers: input with 784 neurons, hidden layer with 128 neurons, and output layer with 10 neurons. This is approximated based on the number of features and number of labels.
+* Dropout layer is added to in first and second layer to regularize the model and prevent overfitting. The dropout rate is assumed to 0.4
+* Rectified Linear Unit (ReLU) is implemented in first and second layers which can help reduce the vanishing gradient problems. 
+* For the last layer, softmax is used to return an array of probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
+* Loss function used in here is the categorical cross-entropy to compute the error between the true classes and predicted classes. 
+* Optimizer used here is the adam (adaptive moments) with adaptive learning rates
+* The labels are given in an one_hot format
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png">
+
 **3. Model evaluation**
 
 **Loss function versus epoch**
