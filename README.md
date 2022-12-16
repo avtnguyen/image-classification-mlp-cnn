@@ -44,13 +44,14 @@ The first 25 image in training dataset:
 
 **CNN model architecture**
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/CNN_model.png" align="center" width="700" >
+[Image source](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)
 
 * Convolution layers: 2 layers with number of 32 and 64 filters. Kernel size is 3x3 matrix
 * Pooling layer: Downsampling with maxpooling layer and the pool size of 3x3
 * Flatten layer: to convert to 1-D vector
 * Fully connected network
 
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" width="400" >
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/cnn_model_plot.png" align="center" width="700" >
 
 
 **3. Model evaluation**
@@ -98,6 +99,7 @@ For MLP model:
 
 ## References:
 * https://deepai.org/machine-learning-glossary-and-terms/feed-forward-neural-network
+* https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html
 
 ## Contributing Members
 
