@@ -59,15 +59,18 @@ The first 25 image in training dataset:
 
 **Loss function versus epoch**
 
-* Loss function vs epochs 
+* Loss function vs epochs for MLP model
 
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
+
+* Loss function vs epochs for CNN model:
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_CNN.png">
 
 **Confusion matrix**
 * Confusion matrix for MLP model
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png" width = "600">
 * Confusion matrix for CNN model
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_cnn.png" width = "600">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_CNN.png" width = "600">
 **Classification report**
 * Classification report for MLP model
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/classification_report_MLP.png">
