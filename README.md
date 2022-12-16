@@ -24,7 +24,8 @@ The first 25 image in training dataset:
 * Flatten images and normalization 
 
 **2. Build a MLP and CNN models:**
-** MLP model architecture **
+
+**MLP model architecture**
 * Three layers: input with 784 neurons, hidden layer with 128 neurons, and output layer with 10 neurons. This is approximated based on the number of features and number of labels.
 * Dropout layer is added to in first and second layer to regularize the model and prevent overfitting. The dropout rate is assumed to 0.4
 * Rectified Linear Unit (ReLU) is implemented in first and second layers which can help reduce the vanishing gradient problems. 
@@ -33,6 +34,12 @@ The first 25 image in training dataset:
 * Optimizer used here is the adam (adaptive moments) with adaptive learning rates
 * The labels are given in an one_hot format
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png">
+
+**Network hyperparameter**
+* Batch size: number of samples to work through before updating the internal model parameters. Smaller batch size will cause a longer training time but can prevent the overfitting issue since only part of the training dataset is seen. Common values equal to  2n  such as 32, 64, 128
+* Epoch: number times that the learning algorithm will work through the entire training dataset. Increase number of epoch will improve the model but can lead to the overfitting problems
+* Number of neurons per layer and number of hidden layer: Here, there will be only 1 hidden layer and the input layer will have 784 neurons corresponding to the input size.
+* Dropout layer is a regularization method to turned off some neurons randomly with the dropout rate assumed to be 40%, meaning that there are 40% chances turned off randomly
 
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
 
