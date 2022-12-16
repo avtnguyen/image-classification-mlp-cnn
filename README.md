@@ -43,10 +43,10 @@ The first 25 image in training dataset:
 
 **3. Model evaluation**
 **Loss function versus epoch**
-<figure>
-  <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
-  <figcaption>Loss function vs epochs in MLP model</figcaption>
-</figure>
+Loss function vs epochs in MLP model
+
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
+
 **Confusion matrix**
 **Classification report**
 **2. Feature selection:** I performed feature selection based on the univariate statistical tests by computing the ANOVA F-value betwen the numerical features (e.g., f_1, f_2...) and the label target. The new dataset includes the most 25 features and f_46 because it is a categorical feature. 
