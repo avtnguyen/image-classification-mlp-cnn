@@ -64,18 +64,22 @@ The first 25 image in training dataset:
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Los_vs_epoch_MLP.png">
 
 **Confusion matrix**
-* Confusion matric in MLP model
+* Confusion matrix for MLP model
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png" width = "600">
-
+* Confusion matrix for CNN model
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_cnn.png" width = "600">
 **Classification report**
 * Classification report for MLP model
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/classification_report_MLP.png">
+* Classification report for CNN model
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/classification_report_cnn.png">
 
 ### Results:
 For MLP model:
 1. The accuracy of the model is 98% with good prediction for the handwriting of number 0,1,2,6 and a slightly less accurate prediction for numbers 3, 4, 5 ,8 and 9.
 2. The lowest precision score is for number 9 and lowest recall scores are for number 8 and number 4. 
-
+For CNN model:
+1. The accuracy of the model is 99% with good prediction for the handwriting of number 0,1,3,4
 ### Methods Used
 * Data Visualization
 * Data preprocessing for image classification
