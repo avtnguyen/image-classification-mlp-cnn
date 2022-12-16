@@ -63,7 +63,7 @@ The first 25 image in training dataset:
 
 **Confusion matrix**
 * Confusion matric in MLP model
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png">
+<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/Confusion_Matrix_MLP.png" width = "300">
 
 **Classification report**
 * Classification report for MLP model
