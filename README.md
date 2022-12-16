@@ -46,15 +46,10 @@ The first 25 image in training dataset:
 <img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/CNN_model.png" align="center" width="700" >
 
 * Convolution layers: 2 layers with number of 32 and 64 filters. Kernel size is 3x3 matrix
-* Pooling
-* Three layers: input with 784 neurons, hidden layer with 128 neurons, and output layer with 10 neurons. This is approximated based on the number of features and number of labels.
-* Dropout layer is added to in first and second layer to regularize the model and prevent overfitting. The dropout rate is assumed to 0.4
-* Rectified Linear Unit (ReLU) is implemented in first and second layers which can help reduce the vanishing gradient problems. 
-* For the last layer, softmax is used to return an array of probability scores (summing to 1). Each score will be the probability that the current digit image belongs to one of our 10 digit classes.
-* Loss function used in here is the categorical cross-entropy to compute the error between the true classes and predicted classes. 
-* Optimizer used here is the adam (adaptive moments) with adaptive learning rates
-* The labels are given in an one_hot format
-<img src="https://github.com/avtnguyen/image-classification-mlp-cnn/blob/main/image/MLP_model_plot.png">
+* Pooling layer: Downsampling with maxpooling layer and the pool size of 3x3
+* Flatten layer: to convert to 1-D vector
+* Fully connected network
+
 
 **3. Model evaluation**
 
